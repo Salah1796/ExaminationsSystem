@@ -1,0 +1,62 @@
+﻿@using  UI.Helper;
+@inject IAuthTokenStore  _authTokenStore;
+@inject NavigationManager NavManager;
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">UI</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+       
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="serviceCredentials">
+                <span class="oi oi-list" aria-hidden="true"></span> Service Credential
+            </NavLink>
+        </div>
+         <div class="nav-item px-3">
+            <NavLink class="nav-link" href="serviceCredentials/add">
+                <span class="oi oi-plus" aria-hidden="true"></span> Add
+            </NavLink>
+        </div>
+
+          <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/Account/SignIn">
+                <span class="oi oi-account-login" aria-hidden="true"></span> SignIn
+            </NavLink>
+        </div>
+
+         <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" @onclick="logout">
+                <span class="oi oi-account-logout" aria-hidden="true"></span> logout
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/Account/Register">
+                <span class="oi oi-account-login" aria-hidden="true"></span> Register
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+    private void logout()
+    {
+        _authTokenStore.ClearToken();
+        string url = $"/Account/SignIn";
+            NavManager.NavigateTo(url);
+    }
+}

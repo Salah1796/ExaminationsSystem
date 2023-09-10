@@ -1,0 +1,167 @@
+﻿@page "/serviceCredentials/add"
+@page "/serviceCredentials/edit/{Id}"
+@*@using AutoMapper*@
+@using ExaminationsSystem.Application.Common.Responses
+@using ExaminationsSystem.Application.Common.Enums
+@using UI.Data.ServiceCredential;
+@inject IServiceCredentialService serviceCredentialService ;
+@*@inject IMapper _mapper;*@
+@using ExaminationsSystem.Application.Models.ViewModels;
+@using ExaminationsSystem.Application.AutoMapper;
+@using UI.Helper;
+@inject IAuthTokenStore _authTokenStore;
+@inject NavigationManager NavManager;
+@inject IJSRuntime JsRuntime
+
+
+
+@if (serviceCredentialViewModel == null)
+{
+    <div class="container">
+        <div class="row mb-3 text-center">
+            <h3 class="text-center">Loading..</h3>
+        </div>
+    </div>
+}
+else
+{
+<div class="container">
+            <div class="row mb-3 text-center">
+                <h3 class="text-center">@title</h3>
+            </div>
+        <EditForm Model="serviceCredentialViewModel" OnSubmit="save">
+            <div class="row mb-3">
+                <div class="col-sm-2">
+                    <label for="ServiceName">Service Name</label>
+                </div>
+                <div class="col-sm-10">
+                    <InputText name="ServiceName" id="ServiceName" class="form-control" @bind-Value="serviceCredentialViewModel.ServiceName"></InputText>
+                </div>
+            </div>
+
+
+            <div class="row mb-3">
+                <div class="col-sm-2">
+                    <label for="ServiceURL">Service URL</label>
+                </div>
+                <div class="col-sm-10">
+                    <InputText name="ServiceURL" id="ServiceURL" class="form-control" @bind-Value="serviceCredentialViewModel.ServiceURL"></InputText>
+                </div>
+            </div>
+
+
+            <div class="row mb-3">
+                <div class="col-sm-2">
+                    <label for="AccountUsername">Account Username</label>
+                </div>
+                <div class="col-sm-10">
+
+                    <InputText name="AccountUsername" id="AccountUsername" class="form-control" @bind-Value="serviceCredentialViewModel.AccountUsername"></InputText>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-2">
+                    <label for="AccountPassword">AccountPassword</label>
+                </div>
+                <div class="col-sm-10">
+                    <InputText name="AccountPassword" type="password" id="AccountPassword" class="form-control" @bind-Value="serviceCredentialViewModel.AccountPassword"></InputText>
+                </div>
+            </div>
+                <button class="btn btn-primary m-3" type="submit"> Save</button>
+        </EditForm>
+    </div>
+}
+@code {
+    [Parameter]
+    public String Id { get; set; }
+    public Guid? serviceId { get; set; }
+    private ServiceCredentialEditViewModel serviceCredentialViewModel;
+    string token;
+    string title="";
+    Boolean initialized = false;
+    protected override async Task OnInitializedAsync()
+    {
+        token = await _authTokenStore.GetToken();
+        if (string.IsNullOrEmpty(token))
+        {
+            string url = $"/Account/SignIn";
+            NavManager.NavigateTo(url);
+        }
+        else
+        {
+            if (!string.IsNullOrEmpty(Id))
+            {
+                title = "Edit";
+                //edit
+                serviceId = new Guid(Id);
+                BaseResponse<ServiceCredentialViewModel> response = await serviceCredentialService.GetById(token, serviceId.Value);
+
+                if (response == null)
+                {
+                    await JsRuntime.InvokeVoidAsync("alert", "Error connecting to server .. ");
+                    string url = $"/";
+                    NavManager.NavigateTo(url);
+                }
+                else
+                {
+                    if (response.Success == true && response.Data != null)
+                        serviceCredentialViewModel = new ServiceCredentialEditViewModel()
+                            {
+                                AccountUsername = response.Data.AccountUsername,
+                                AccountPassword = response.Data.AccountPassword,
+                                ServiceName = response.Data.ServiceName,
+                                ServiceURL = response.Data.ServiceURL,
+                                Id = response.Data.Id
+                            };
+                    else
+                    {
+                        if (response.Code == StatusCode.NotFound) await JsRuntime.InvokeVoidAsync("alert", "This credential not exist!");
+                        else if (response.Code == StatusCode.Unauthorized) await JsRuntime.InvokeVoidAsync("alert", "You are not Unauthorized to access this credential!");
+                        string url = $"/";
+                        NavManager.NavigateTo(url);
+                    }
+                }
+            }
+            else
+            {
+                //create
+                title = "Create";
+                serviceCredentialViewModel = new ServiceCredentialEditViewModel();
+            }
+        }
+
+        initialized = true;
+    }
+    private async Task save()
+    {
+        BaseResponse<ServiceCredentialViewModel> response;
+        if (serviceId != null)
+        {
+            response = await serviceCredentialService.Update(token, serviceCredentialViewModel);
+
+        }
+        else
+        {
+            response = await serviceCredentialService.Add(token, serviceCredentialViewModel);
+        }
+
+        if (response == null)
+        {
+            await JsRuntime.InvokeVoidAsync("alert", "Error connecting to server .. ");
+        }
+        else
+        {
+            if (response.Success == true)
+            {
+                string url = $"/serviceCredentials";
+                NavManager.NavigateTo(url);
+            }
+            else
+            {
+                await JsRuntime.InvokeVoidAsync("alert", response.Message);
+            }
+        }
+    }
+
+}

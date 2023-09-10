@@ -1,0 +1,371 @@
+﻿++Solution 'ChatApp' ‎(4 of 4 projects)
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++API
+i:{fb261a87-c08c-41db-985a-ed2a952b3efc}:API
+++Infrastructure
+i:{fb261a87-c08c-41db-985a-ed2a952b3efc}:Infrastructure
+++EgyptianRecipes.Infrastructure
+i:{3da57c4a-2292-4e99-8333-507b04118856}:EgyptianRecipes.Infrastructure
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.infrastructure\egyptianrecipes.infrastructure.csproj
+++Dependencies
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:>478
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:>479
+i:{ba507763-a670-4af9-ad03-031518b27f54}:>481
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>480
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>1306
+++InfrastructureServiceRegistration.cs
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:g:\asp.net core source code\link dev\egyptianrecipes.infrastructure\infrastructureserviceregistration.cs
+++Analyzers
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:analyzers
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:analyzers
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:analyzers
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:analyzers
+++Frameworks
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:frameworks
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:frameworks
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:frameworks
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:frameworks
+++Packages
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:packages
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:packages
+i:{ba507763-a670-4af9-ad03-031518b27f54}:packages
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:packages
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:packages
+++Projects
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:projects
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:projects
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:projects
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:projects
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:c:\users\salah\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:c:\users\salah\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:c:\users\salah\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\users\salah\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:c:\users\salah\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:c:\users\salah\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:c:\users\salah\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:g:\asp.net core source code\link dev\egyptianrecipes.infrastructure\microsoft.netcore.app
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\microsoft.netcore.app
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\microsoft.netcore.app
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\microsoft.netcore.app
+++CsvHelper (12.2.1)
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:>944
+++Microsoft.Extensions.Options.ConfigurationExtensions (3.1.10)
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:>945
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:>950
+++SendGrid (9.21.1)
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:>943
+++EgyptianRecipes.Application
+i:{3af3d93a-2b79-480c-b20e-78b066783039}:g:\asp.net core source code\link dev\egyptianrecipes.application\egyptianrecipes.application.csproj
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.application\bin\debug\net6.0\egyptianrecipes.application.dll
+i:{2a5089fa-28ff-4724-bb4d-2b7e59441f62}:EgyptianRecipes.Application
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.application\egyptianrecipes.application.csproj
+++EgyptianRecipes.Persistence
+i:{3da57c4a-2292-4e99-8333-507b04118856}:EgyptianRecipes.Persistence
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\egyptianrecipes.persistence.csproj
+++Mappings
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\mappings\
+++Repositories
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\repositories\
+++EgyptianRecipesDbContext.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\egyptianrecipesdbcontext.cs
+++PersistenceServiceRegistration.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\persistenceserviceregistration.cs
+++UnitOfWorkAsync.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\unitofworkasync.cs
+++BranchMap.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\mappings\branchmap.cs
+++Base
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\repositories\base\
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\persistence\irepositories\base\
+++BranchRepository.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\repositories\branchrepository.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.10)
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:>951
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.10)
+++System.Linq.Dynamic.Core (1.2.19)
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:>949
+++EgyptianRecipes.Domain
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.domain\egyptianrecipes.domain.csproj
+i:{2a5089fa-28ff-4724-bb4d-2b7e59441f62}:EgyptianRecipes.Domain
+++BaseRepository.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\repositories\base\baserepository.cs
+++Core
+i:{fb261a87-c08c-41db-985a-ed2a952b3efc}:Core
+++Common
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\
+++Entities
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\entities\
+++Contracts
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\
+++Enum
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\enum\
+++Branch.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\entities\branch.cs
+++NETStandard.Library (2.0.3)
+i:{ba507763-a670-4af9-ad03-031518b27f54}:>937
+++ICreationDateSignature.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\icreationdatesignature.cs
+++IDeletionSignature.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\ideletionsignature.cs
+++IEntityCreatedUserSignature.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\ientitycreatedusersignature.cs
+++IEntityIdentity.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\ientityidentity.cs
+++IEntityModifiedUserSignature.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\ientitymodifiedusersignature.cs
+++IModificatioDateSignature.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\contracts\imodificatiodatesignature.cs
+++Language.cs
+i:{ba507763-a670-4af9-ad03-031518b27f54}:g:\asp.net core source code\link dev\egyptianrecipes.domain\common\enum\language.cs
+++AutoMapper
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\automapper\
+++Extensions.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\automapper\extensions.cs
+++MappingProfile.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\automapper\mappingprofile.cs
+++Exceptions
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\exceptions\
+++Features
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\
+++Branch
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\validation\branch\
+++Commands
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\
+++Queries
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\queries\
+++GetBranchesList
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\queries\getbrancheslist\
+++GetBranchesListQuery.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\queries\getbrancheslist\getbrancheslistquery.cs
+++GetBranchesListResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\queries\getbrancheslist\getbrancheslistresponse.cs
+++GetBranchsListQueryHandler.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\queries\getbrancheslist\getbranchslistqueryhandler.cs
+++Models
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\models\
+++Authentication
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\authentication\
+++Mail
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\mail\
+++ViewModels
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\
+++CreateBranchResponseViewModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\createbranchresponseviewmodel.cs
+++GetBranchesListRespnseViewModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\getbrancheslistrespnseviewmodel.cs
+++UpdateBranchResponseViewModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\updatebranchresponseviewmodel.cs
+++BaseFilter.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\models\basefilter.cs
+++Pagination.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\models\pagination.cs
+++Responses
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\models\responses\
+++Validation
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\validation\
+++ApplicationServiceRegistration.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\applicationserviceregistration.cs
+++Persistence
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\persistence\
+++BadRequestException.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\exceptions\badrequestexception.cs
+++NotFoundException.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\exceptions\notfoundexception.cs
+++ValidationException.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\exceptions\validationexception.cs
+++CreateBranch
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\createbranch\
+++DeleteBranch
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\deletebranch\
+++UpdateBranch
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\updatebranch\
+++AuthenticationRequest.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\authentication\authenticationrequest.cs
+++AuthenticationResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\authentication\authenticationresponse.cs
+++JwtSettings.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\authentication\jwtsettings.cs
+++RegistrationRequest.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\authentication\registrationrequest.cs
+++RegistrationResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\authentication\registrationresponse.cs
+++Email.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\mail\email.cs
+++EmailSettings.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\mail\emailsettings.cs
+++BaseResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\models\responses\baseresponse.cs
+++AutoMapper (10.1.1)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>958
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.0)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>955
+++FluentValidation (9.2.2)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>960
+++FluentValidation.DependencyInjectionExtensions (9.2.0)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>961
+++MediatR.Extensions.Microsoft.DependencyInjection (9.0.0)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>956
+++Microsoft.EntityFrameworkCore (6.0.8)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>1077
+++Microsoft.Extensions.Logging.Abstractions (6.0.1)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>1073
+++System.Text.Json (4.7.2)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:>959
+++EgyptianRecipes.Domain (..\EgyptianRecipes.Domain\EgyptianRecipes.Domain.csproj)
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.domain\egyptianrecipes.domain.csproj
+++IRepositories
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\persistence\irepositories\
+++IUnitOfWorkAsync.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\persistence\iunitofworkasync.cs
+++CreateBranchCommand.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\createbranch\createbranchcommand.cs
+++CreateBranchCommandHandler.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\createbranch\createbranchcommandhandler.cs
+++CreateBranchCommandResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\createbranch\createbranchcommandresponse.cs
+++DeleteBranchCommand.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\deletebranch\deletebranchcommand.cs
+++DeleteBranchCommandHandler.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\deletebranch\deletebranchcommandhandler.cs
+++DeleteBranchCommandResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\deletebranch\deletebranchcommandresponse.cs
+++UpdateBranchCommand.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\updatebranch\updatebranchcommand.cs
+++UpdateBranchCommandHandler.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\updatebranch\updatebranchcommandhandler.cs
+++UpdateBranchCommandResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\features\branch\commands\updatebranch\updatebranchcommandresponse.cs
+++CreateBranchCommandValidator.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\validation\branch\createbranchcommandvalidator.cs
+++DeleteBranchCommandValidator.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\validation\branch\deletebranchcommandvalidator.cs
+++GetBranchesListQueryValidator.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\validation\branch\getbrancheslistqueryvalidator.cs
+++UpdateBranchCommandValidator.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\validation\branch\updatebranchcommandvalidator.cs
+++IBranchRepository.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\persistence\irepositories\ibranchrepository.cs
+++IBaseRepositoryAsync.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\contracts\persistence\irepositories\base\ibaserepositoryasync.cs
+++BaseResponse - Copy.cs
+++BasePaginatedResponse.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\models\responses\basepaginatedresponse.cs
+++Solution 'ChatApp' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:ChatApp.sln
+++EgyptianRecipes.Common
+++Class1.cs
+++C:\Program Files\dotnet\sdk\7.0.100-preview.1.22110.4\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\7.0.100-preview.1.22110.4\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++NewFolder
+++Enums
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\enums\
+++ErrorCode.cs
+++StatuesCode.cs
+++Status Code.cs
+++StatusCode.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\common\enums\statuscode.cs
+++Solution 'ChatApp' ‎(6 of 6 projects)
+++EgyptianRecipes.API
+i:{005ecd44-a33a-4587-98f0-3a03e32bd19b}:EgyptianRecipes.API
+++Connected Services 
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>1307
+++Properties
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\properties\
+++Controllers
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\controllers\
+++appsettings.Development.json
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\appsettings.development.json
+++appsettings.json
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\appsettings.json
+++Dockerfile
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\dockerfile
+++Program.cs
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\program.cs
+++WeatherForecast.cs
+++No service dependencies discovered
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>1308
+++launchSettings.json
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\properties\launchsettings.json
+++WeatherForecastController.cs
+++C:\Program Files\dotnet\sdk\7.0.100-preview.1.22110.4\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\7.0.100-preview.1.22110.4\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\7.0.100-preview.1.22110.4\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++Microsoft.AspNetCore.App
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\microsoft.aspnetcore.app
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.14.0)
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>1356
+++Swashbuckle.AspNetCore (6.2.3)
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>1355
+++Microsoft.AspNetCore.Analyzers
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:c:\program files\dotnet\sdk\7.0.100-preview.1.22110.4\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++.dockerignore
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\.dockerignore
+++BranchController.cs
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:g:\asp.net core source code\link dev\egyptianrecipes.api\controllers\branchcontroller.cs
+++MediatR (10.0.1)
+++BrandSearchModel.cs
+++BranchSearchModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\branchsearchmodel.cs
+++BranchSearchModel - Copy.cs
+++BrandLightViewModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\brandlightviewmodel.cs
+++Microsoft.EntityFrameworkCore.Tools (6.0.8)
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>2433
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:>2704
+++Microsoft.EntityFrameworkCore.Design (6.0.8)
+i:{23ef7b34-e16d-489c-bfcf-83e1384f2ee0}:>2705
+++Migrations
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\migrations\
+++20220813010335_init.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\migrations\20220813010335_init.cs
+++EgyptianRecipesDbContextModelSnapshot.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\migrations\egyptianrecipesdbcontextmodelsnapshot.cs
+++20220813010335_init.Designer.cs
+i:{ff61f85e-2df7-4e2b-b5ad-c2227d003a60}:g:\asp.net core source code\link dev\egyptianrecipes.persistence\migrations\20220813010335_init.designer.cs
+++BranchViewModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\branchviewmodel.cs
+++BranchCreateViewModel.cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\branchcreateviewmodel.cs
+++BranchCreateViewModel - Copy.cs
+++BranchEditViewModel .cs
+i:{11ee8e06-d5df-409c-96ea-a3126d673f97}:g:\asp.net core source code\link dev\egyptianrecipes.application\models\viewmodels\branch\brancheditviewmodel .cs
+++BranchCreateViewViewModel.cs
+++BranchViewViewModel.cs

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ITS.Customers.Domain
+build_property.ProjectDir = G:\asp.net core source code\ITS-Task\BackEnd\ITS.Customers.Domain\

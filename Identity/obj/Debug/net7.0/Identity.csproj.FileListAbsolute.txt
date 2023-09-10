@@ -1,0 +1,17 @@
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\Identity.deps.json
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\Identity.dll
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\Identity.pdb
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\ExaminationsSystem.Application.dll
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\ExaminationsSystem.Domain.dll
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\ExaminationsSystem.Application.pdb
+E:\Github\Examinations-System\Identity\bin\Debug\net7.0\ExaminationsSystem.Domain.pdb
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.csproj.AssemblyReference.cache
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.AssemblyInfoInputs.cache
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.AssemblyInfo.cs
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.csproj.CoreCompileInputs.cache
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.csproj.CopyComplete
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.dll
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\refint\Identity.dll
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\Identity.pdb
+E:\Github\Examinations-System\Identity\obj\Debug\net7.0\ref\Identity.dll

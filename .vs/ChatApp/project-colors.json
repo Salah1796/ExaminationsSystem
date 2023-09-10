@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ba507763-a670-4af9-ad03-031518b27f54": {
+      "ProjectGuid": "ba507763-a670-4af9-ad03-031518b27f54",
+      "DisplayName": "EgyptianRecipes.Domain",
+      "ColorIndex": 0
+    },
+    "11ee8e06-d5df-409c-96ea-a3126d673f97": {
+      "ProjectGuid": "11ee8e06-d5df-409c-96ea-a3126d673f97",
+      "DisplayName": "EgyptianRecipes.Application",
+      "ColorIndex": 1
+    },
+    "3af3d93a-2b79-480c-b20e-78b066783039": {
+      "ProjectGuid": "3af3d93a-2b79-480c-b20e-78b066783039",
+      "DisplayName": "EgyptianRecipes.Infrastructure",
+      "ColorIndex": 2
+    },
+    "ff61f85e-2df7-4e2b-b5ad-c2227d003a60": {
+      "ProjectGuid": "ff61f85e-2df7-4e2b-b5ad-c2227d003a60",
+      "DisplayName": "EgyptianRecipes.Persistence",
+      "ColorIndex": 3
+    },
+    "458ddbf7-334a-4c35-ad30-09311e079778": {
+      "ProjectGuid": "458ddbf7-334a-4c35-ad30-09311e079778",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a25a9d6c-a8e0-442b-9f94-0b75d186ec1a": {
+      "ProjectGuid": "a25a9d6c-a8e0-442b-9f94-0b75d186ec1a",
+      "DisplayName": "EgyptianRecipes.Common",
+      "ColorIndex": 5
+    },
+    "23ef7b34-e16d-489c-bfcf-83e1384f2ee0": {
+      "ProjectGuid": "23ef7b34-e16d-489c-bfcf-83e1384f2ee0",
+      "DisplayName": "EgyptianRecipes.API",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

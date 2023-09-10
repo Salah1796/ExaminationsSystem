@@ -1,0 +1,15 @@
+E:\Github\Examinations-System\ExaminationsSystem.Application\bin\Debug\net7.0\ExaminationsSystem.Application.deps.json
+E:\Github\Examinations-System\ExaminationsSystem.Application\bin\Debug\net7.0\ExaminationsSystem.Application.dll
+E:\Github\Examinations-System\ExaminationsSystem.Application\bin\Debug\net7.0\ExaminationsSystem.Application.pdb
+E:\Github\Examinations-System\ExaminationsSystem.Application\bin\Debug\net7.0\ExaminationsSystem.Domain.dll
+E:\Github\Examinations-System\ExaminationsSystem.Application\bin\Debug\net7.0\ExaminationsSystem.Domain.pdb
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.csproj.AssemblyReference.cache
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.AssemblyInfoInputs.cache
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.AssemblyInfo.cs
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.csproj.CoreCompileInputs.cache
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.csproj.CopyComplete
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.dll
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\refint\ExaminationsSystem.Application.dll
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ExaminationsSystem.Application.pdb
+E:\Github\Examinations-System\ExaminationsSystem.Application\obj\Debug\net7.0\ref\ExaminationsSystem.Application.dll

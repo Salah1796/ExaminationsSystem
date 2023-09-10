@@ -1,0 +1,75 @@
+﻿@page "/Account/Register"
+@using UI.Data.ServiceCredential;
+@inject IAccountService   _accountService;
+@using ExaminationsSystem.Application.Models.ViewModels.Identity;
+@using  ExaminationsSystem.Application.Common.Responses;
+@using UI.Helper;
+@inject IAuthTokenStore   _authTokenStore;
+@inject NavigationManager NavManager;
+@inject IJSRuntime JsRuntime
+
+@if (registrationRequest == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+        <h1>Register</h1>
+    
+   <EditForm Model="registrationRequest" OnSubmit="Save">
+
+       <div class="form-group">
+           <label> Name</label>
+           <InputText  name="Name" placeholder="Name"   id="Name" class="form-control"  @bind-Value="registrationRequest.Name"></InputText>
+       </div>
+       <div class="form-group">
+           <label>User Name</label>
+           <InputText  name="UserName" placeholder="UserName"   id="UserName" class="form-control"  @bind-Value="registrationRequest.UserName"></InputText>
+       </div>
+
+        <div class="form-group">
+           <label>Password</label>
+           <InputText  type="password"  placeholder="Password"  name="Password"   id="Password" class="form-control"  @bind-Value="registrationRequest.Password"></InputText>
+       </div>
+
+         <div class="form-group">
+           <label>Email</label>
+           <InputText  name="Email" placeholder="Email"   id="Email" class="form-control"  @bind-Value="registrationRequest.Email"></InputText>
+       </div
+
+        <div class="form-group">
+           <label for="Mobile">Mobile</label>
+           <InputText  name="Mobile" placeholder="Mobile"   id="Mobile" class="form-control"  @bind-Value="registrationRequest.Mobile"></InputText>
+       </div>
+       <div class="form-group">
+           <button class="btn btn-primary" type="submit"> Register</button>
+       </div>
+   </EditForm>
+}
+@code {
+
+
+    private RegistrationRequest registrationRequest = new RegistrationRequest();   
+
+    private async Task Save()
+    {
+        var response =    await _accountService.Register(registrationRequest);
+         if (response == null)
+        {
+            await JsRuntime.InvokeVoidAsync("alert", "Error connecting to server .. ");
+        }
+        else
+        {
+            if (response.Success == true)
+            {
+                    string url = $"/Account/SignIn";
+                    NavManager.NavigateTo(url);
+            }
+            else
+            {
+                await JsRuntime.InvokeVoidAsync("alert", response.Message);
+            }
+        }
+    }
+
+}

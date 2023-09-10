@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aj3OszTFjTmUWK0k1n0JWEsbmR/41TWQgpxBs24e/yR+X3VjmyJnGn0ciu7LvgxYXatrpZ7OqskaIBBsghmPag==",
+  "dgSpecHash": "TW4q7NovivnfRD8wAmT5Frf1NeNguMbbZtPBNIvUbjsCojn/KKafRuAF033muytqCZa8k4/pSLtXsRPAU632Bw==",
   "success": true,
-  "projectFilePath": "E:\\Github\\Examinations-System\\Identity\\Identity.csproj",
+  "projectFilePath": "E:\\Github\\ExaminationsSystem\\Identity\\Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\engsa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\engsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

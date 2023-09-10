@@ -523,11 +523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\Examinations-System\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj",
+      "projectUniqueName": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj",
       "projectName": "ExaminationsSystem.Domain",
-      "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj",
+      "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj",
       "packagesPath": "C:\\Users\\engsa\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Domain\\obj\\",
+      "outputPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\engsa\\AppData\\Roaming\\NuGet\\NuGet.Config",

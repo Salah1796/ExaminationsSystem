@@ -7175,11 +7175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\Examinations-System\\ExaminationsSystem.API\\ExaminationsSystem.API.csproj",
+      "projectUniqueName": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.API\\ExaminationsSystem.API.csproj",
       "projectName": "ExaminationsSystem.API",
-      "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.API\\ExaminationsSystem.API.csproj",
+      "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.API\\ExaminationsSystem.API.csproj",
       "packagesPath": "C:\\Users\\engsa\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.API\\obj\\",
+      "outputPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\engsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7198,17 +7198,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Github\\Examinations-System\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj": {
-              "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj"
+            "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj": {
+              "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj"
             },
-            "E:\\Github\\Examinations-System\\ExaminationsSystem.Infrastructure\\ExaminationsSystem.Infrastructure.csproj": {
-              "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Infrastructure\\ExaminationsSystem.Infrastructure.csproj"
+            "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Infrastructure\\ExaminationsSystem.Infrastructure.csproj": {
+              "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Infrastructure\\ExaminationsSystem.Infrastructure.csproj"
             },
-            "E:\\Github\\Examinations-System\\ExaminationsSystem.Persistence\\ExaminationsSystem.Persistence.csproj": {
-              "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Persistence\\ExaminationsSystem.Persistence.csproj"
+            "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Persistence\\ExaminationsSystem.Persistence.csproj": {
+              "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Persistence\\ExaminationsSystem.Persistence.csproj"
             },
-            "E:\\Github\\Examinations-System\\Identity\\Identity.csproj": {
-              "projectPath": "E:\\Github\\Examinations-System\\Identity\\Identity.csproj"
+            "E:\\Github\\ExaminationsSystem\\Identity\\Identity.csproj": {
+              "projectPath": "E:\\Github\\ExaminationsSystem\\Identity\\Identity.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Rr7UQVpiJsN/Pfab+lktIs09qkpD+bnu6R0fWW23ruPA8//nE1Cep9xhhJpuKZKRv1RD0j76BeXgtKqyYY1sQ==",
+  "dgSpecHash": "aMBuP/2CRImfj9ar+arfSw8PikoWf4t8uTPrKs8Ohj3LOeEBiI/Vh45mE4qMPD9l4wjZLk5vRkCnwyyYJHZ/mw==",
   "success": true,
-  "projectFilePath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj",
+  "projectFilePath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\engsa\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\engsa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

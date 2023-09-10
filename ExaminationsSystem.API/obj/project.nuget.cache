@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWeWHMSDPK8CAdRkX4dAnFcLW37ZVetv6WZEq7BAOVMRmSnKzn1DWOYp5OoTpv3oiUhni+kZu+tjKGb5yg4Y7w==",
+  "dgSpecHash": "ydynd5N8RdVPSO2JWevomVHftNWq+tgsjaa5w+hLlvJkVygpetfKpnUkNtziE0LkReSZ5oCXLVcomNqbH6rOXQ==",
   "success": true,
-  "projectFilePath": "E:\\Github\\Examinations-System\\ExaminationsSystem.API\\ExaminationsSystem.API.csproj",
+  "projectFilePath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.API\\ExaminationsSystem.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\engsa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\engsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

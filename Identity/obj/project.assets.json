@@ -1919,11 +1919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\Examinations-System\\Identity\\Identity.csproj",
+      "projectUniqueName": "E:\\Github\\ExaminationsSystem\\Identity\\Identity.csproj",
       "projectName": "Identity",
-      "projectPath": "E:\\Github\\Examinations-System\\Identity\\Identity.csproj",
+      "projectPath": "E:\\Github\\ExaminationsSystem\\Identity\\Identity.csproj",
       "packagesPath": "C:\\Users\\engsa\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\Examinations-System\\Identity\\obj\\",
+      "outputPath": "E:\\Github\\ExaminationsSystem\\Identity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\engsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1941,11 +1941,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Github\\Examinations-System\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj": {
-              "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj"
+            "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj": {
+              "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Application\\ExaminationsSystem.Application.csproj"
             },
-            "E:\\Github\\Examinations-System\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj": {
-              "projectPath": "E:\\Github\\Examinations-System\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj"
+            "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj": {
+              "projectPath": "E:\\Github\\ExaminationsSystem\\ExaminationsSystem.Domain\\ExaminationsSystem.Domain.csproj"
             }
           }
         }

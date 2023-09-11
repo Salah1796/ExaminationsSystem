@@ -1,6 +1,0 @@
-E:\Github\Examinations-System\PasswordManager.API\obj\Debug\net6.0\Examinations-System.API.csproj.AssemblyReference.cache
-E:\Github\Examinations-System\PasswordManager.API\obj\Debug\net6.0\Examinations-System.API.GeneratedMSBuildEditorConfig.editorconfig
-E:\Github\Examinations-System\PasswordManager.API\obj\Debug\net6.0\Examinations-System.API.AssemblyInfoInputs.cache
-E:\Github\Examinations-System\PasswordManager.API\obj\Debug\net6.0\Examinations-System.API.AssemblyInfo.cs
-E:\Github\Examinations-System\PasswordManager.API\obj\Debug\net6.0\Examinations-System.API.csproj.CoreCompileInputs.cache
-E:\Github\Examinations-System\PasswordManager.API\obj\Debug\net6.0\Examinations-System.API.MvcApplicationPartsAssemblyInfo.cache

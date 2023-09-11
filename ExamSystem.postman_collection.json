@@ -1,0 +1,408 @@
+{
+	"info": {
+		"_postman_id": "40757726-9d15-4f71-a638-c20d04f148b9",
+		"name": "ExamSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9412478"
+	},
+	"item": [
+		{
+			"name": "Exam",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiI2ZGM1NjM4YS1kNDg4LTRhOTgtODQxMy1hNTE0Y2FiOGI0NDIiLCJpYXQiOiIxMC8wOS8yMDIzIDAxOjA2OjAxIiwiVXNlcklkIjoiZDBmMWRiN2UtMjkyYy00MDgxLTQzOTMtMDhkYmIxOWEwZjYxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMTE1NjEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.TBjjUqXRNjAE6qllyLbK8tlU1DJbiFGA95YnV_14CoI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiJhNTlkOTY5OS1iNzhjLTQzNTktYmQ4ZC1lZmM0M2ZkYjNlNmIiLCJpYXQiOiIwOS8wOS8yMDIzIDE2OjIzOjA5IiwiVXNlcklkIjoiOTc0MjEyNjEtNThlMi00ZDJmLTZkYzYtMDhkYmIxNTA0ZmJkIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IjEyMzQ1NiIsImV4cCI6MTY5NDI4MDE4OSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMifQ.I1iPKN1YRS_4jjPQIorunydML0NqSiygtK-HUr55DoM\"",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"exam11\",\r\n  \"duration\": 120,\r\n  \"fromDate\": \"2023-09-01\",\r\n  \"toDate\": \"2023-10-10\",\r\n  \"questions\": [\r\n    {\r\n      \"questionId\": \"BA7D051F-50C5-419F-2FA4-08DBB19A32F9\",\r\n      \"points\": 1\r\n    },\r\n     {\r\n      \"questionId\": \"BBC1A0F7-1317-49DC-4921-08DBB19AA11B\",\r\n      \"points\": 2\r\n    },\r\n     {\r\n      \"questionId\": \"C9825B1A-140C-42BD-4922-08DBB19AA11B\",\r\n      \"points\": 3\r\n    },\r\n    {\r\n      \"questionId\": \"1703C43E-1F69-49E2-4923-08DBB19AA11B\",\r\n      \"points\": 4\r\n    },\r\n    {\r\n      \"questionId\": \"1AE06CFC-3741-4122-4924-08DBB19AA11B\",\r\n      \"points\": 5\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/Exam/Add",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"Exam",
+								"Add"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Account",
+			"item": [
+				{
+					"name": "SignIn",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Question",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiJjNmVmNTAzNC1kN2UwLTRlMWUtYmY5My1iMGZhMTgxODMyMjYiLCJpYXQiOiIwOS8wOS8yMDIzIDE5OjA3OjMwIiwiVXNlcklkIjoiYjNhMjA5MjktMDVhNi00MzQ4LTFkZjUtMDhkYmIxNTYwYWQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IjEyMzQiLCJleHAiOjE2OTQyOTAwNTAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.Mk0U8sLIqFAcblg1MdIWYus0SWJ6LCp7GCs1C3F1MoM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"questionText\": \"q1\",\r\n  \"type\": 1,\r\n  \"difficultyLevel\": 1,\r\n  \"correctAnswer\": \"\",\r\n  \"options\": [\r\n    {\r\n      \"optionText\": \"op1\",\r\n      \"isCorrect\": false\r\n    },\r\n     {\r\n      \"optionText\": \"op2\",\r\n      \"isCorrect\": true\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/Question/Add",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"Question",
+								"Add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiJjNmVmNTAzNC1kN2UwLTRlMWUtYmY5My1iMGZhMTgxODMyMjYiLCJpYXQiOiIwOS8wOS8yMDIzIDE5OjA3OjMwIiwiVXNlcklkIjoiYjNhMjA5MjktMDVhNi00MzQ4LTFkZjUtMDhkYmIxNTYwYWQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IjEyMzQiLCJleHAiOjE2OTQyOTAwNTAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.Mk0U8sLIqFAcblg1MdIWYus0SWJ6LCp7GCs1C3F1MoM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"questionText\": \"qq\",\r\n  \"type\": 1,\r\n  \"difficultyLevel\": 2,\r\n  \"correctAnswer\": \"test\",\r\n  \"options\": [\r\n            {\r\n                \"id\": \"d9001e6b-eb96-4491-eb89-08dbb16aad1a\",\r\n                \"optionText\": \"op1\",\r\n                \"isCorrect\": false,\r\n                \"questionId\": \"59e61553-8d83-43d9-2445-08dbb16aad12\"\r\n            },\r\n            {\r\n                \"id\": \"7ec73905-3c59-47ca-eb8a-08dbb16aad1a\",\r\n                \"optionText\": \"op2\",\r\n                \"isCorrect\": true,\r\n                \"questionId\": \"59e61553-8d83-43d9-2445-08dbb16aad12\"\r\n            }\r\n        ],\r\n  \"id\": \"59e61553-8d83-43d9-2445-08dbb16aad12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/Question/Update",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"Question",
+								"Update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "StudentExam",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiJjYWVhZmY2Ni0zMDE5LTQ2YWYtYWI3ZC01Zjk4MGNkZDYyMmMiLCJpYXQiOiIxMC8wOS8yMDIzIDA1OjQzOjM5IiwiU3R1ZGVudElkIjoiOTA1MmQ2OGEtMWYwYi00NTVjLTliM2UtMDhkYmIxYTUxN2FjIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMjgyMTksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.0Nh9wDLdwUKRTASflWo4-4XIiQIPynFBw1W_3fN6Tyk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"examId\": \"f05a5591-9aed-4b83-d949-08dbb1c18dfd\",\r\n  \"studentId\": \"9052D68A-1F0B-455C-9B3E-08DBB1A517AC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/StudentExam/Add",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"StudentExam",
+								"Add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Start",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiI2ZGM1NjM4YS1kNDg4LTRhOTgtODQxMy1hNTE0Y2FiOGI0NDIiLCJpYXQiOiIxMC8wOS8yMDIzIDAxOjA2OjAxIiwiVXNlcklkIjoiZDBmMWRiN2UtMjkyYy00MDgxLTQzOTMtMDhkYmIxOWEwZjYxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMTE1NjEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.TBjjUqXRNjAE6qllyLbK8tlU1DJbiFGA95YnV_14CoI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"examId\": \"A06578DF-38F6-452D-78AA-08DBB19B7093\",\r\n  \"studentId\": \"2ACAE2A6-83DE-4EC2-8A71-4E9C7C1DF026\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/StudentExam/Start/9e076426-a623-45c0-8e7b-08dbb19dae86",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"StudentExam",
+								"Start",
+								"9e076426-a623-45c0-8e7b-08dbb19dae86"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "End",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiI2ZGM1NjM4YS1kNDg4LTRhOTgtODQxMy1hNTE0Y2FiOGI0NDIiLCJpYXQiOiIxMC8wOS8yMDIzIDAxOjA2OjAxIiwiVXNlcklkIjoiZDBmMWRiN2UtMjkyYy00MDgxLTQzOTMtMDhkYmIxOWEwZjYxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMTE1NjEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.TBjjUqXRNjAE6qllyLbK8tlU1DJbiFGA95YnV_14CoI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"examId\": \"A06578DF-38F6-452D-78AA-08DBB19B7093\",\r\n  \"studentId\": \"2ACAE2A6-83DE-4EC2-8A71-4E9C7C1DF026\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/StudentExam/End/9e076426-a623-45c0-8e7b-08dbb19dae86",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"StudentExam",
+								"End",
+								"9e076426-a623-45c0-8e7b-08dbb19dae86"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Grade",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiI2ZGM1NjM4YS1kNDg4LTRhOTgtODQxMy1hNTE0Y2FiOGI0NDIiLCJpYXQiOiIxMC8wOS8yMDIzIDAxOjA2OjAxIiwiVXNlcklkIjoiZDBmMWRiN2UtMjkyYy00MDgxLTQzOTMtMDhkYmIxOWEwZjYxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMTE1NjEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.TBjjUqXRNjAE6qllyLbK8tlU1DJbiFGA95YnV_14CoI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"examId\": \"A06578DF-38F6-452D-78AA-08DBB19B7093\",\r\n  \"studentId\": \"2ACAE2A6-83DE-4EC2-8A71-4E9C7C1DF026\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/StudentExam/End/9e076426-a623-45c0-8e7b-08dbb19dae86",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"StudentExam",
+								"End",
+								"9e076426-a623-45c0-8e7b-08dbb19dae86"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Answer",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiJjYWVhZmY2Ni0zMDE5LTQ2YWYtYWI3ZC01Zjk4MGNkZDYyMmMiLCJpYXQiOiIxMC8wOS8yMDIzIDA1OjQzOjM5IiwiU3R1ZGVudElkIjoiOTA1MmQ2OGEtMWYwYi00NTVjLTliM2UtMDhkYmIxYTUxN2FjIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMjgyMTksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.0Nh9wDLdwUKRTASflWo4-4XIiQIPynFBw1W_3fN6Tyk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentExamId\": \"e1540d2e-0192-47b0-3dfa-08dbb1c1cbb0\",\r\n  \"questionId\": \"12a79b58-2981-48dc-5842-08dbb1a57799\",\r\n  \"SelectedOptionsId\":[\r\n      \r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7033/api/StudentExam/Answer",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"StudentExam",
+								"Answer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1QgZm9yIGh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJqdGkiOiJjYWVhZmY2Ni0zMDE5LTQ2YWYtYWI3ZC01Zjk4MGNkZDYyMmMiLCJpYXQiOiIxMC8wOS8yMDIzIDA1OjQzOjM5IiwiU3R1ZGVudElkIjoiOTA1MmQ2OGEtMWYwYi00NTVjLTliM2UtMDhkYmIxYTUxN2FjIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IlNhbGFoMjMiLCJleHAiOjE2OTQzMjgyMTksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzMiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIn0.0Nh9wDLdwUKRTASflWo4-4XIiQIPynFBw1W_3fN6Tyk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7033/api/StudentExam/Get/e1540d2e-0192-47b0-3dfa-08dbb1c1cbb0",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7033",
+							"path": [
+								"api",
+								"StudentExam",
+								"Get",
+								"e1540d2e-0192-47b0-3dfa-08dbb1c1cbb0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
